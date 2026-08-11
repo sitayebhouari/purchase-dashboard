@@ -1,0 +1,11 @@
+setwd("C:/Users/YourName/Desktop/DAAA")
+getwd()
+list.files()
+setwd("C:/Users/GAMING/Desktop/DAAA")
+list.files()
+unlink("DAAA", recursive = TRUE)
+list.files()
+shiny::runApp()
+runApp()
+list.files()
+# يجب أن يظهر: [1] "app.R" "data" "style.css" "www"

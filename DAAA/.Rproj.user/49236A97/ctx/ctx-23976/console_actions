@@ -1,0 +1,18 @@
+{
+    "type": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+    ],
+    "data": [
+        "> ",
+        "list.files()",
+        "[1] \"app.R\"     \"DAAA\"      \"data\"      \"style.css\" \"www\"      \n",
+        "> ",
+        "# يجب أن يظهر: [1] \"app.R\" \"data\" \"style.css\" \"www\"",
+        "\u001BG3;Restarting R session...\u001Bg"
+    ]
+}

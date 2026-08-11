@@ -1,0 +1,10 @@
+name: purchase-dashboard
+title:
+username: spaelfath
+account: spaelfath
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17688072
+bundleId: 12394920
+url: https://spaelfath.shinyapps.io/purchase-dashboard/
+version: 1

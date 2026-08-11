@@ -1,0 +1,193 @@
+/* style.css - تنسيقات الواجهة */
+
+/* الوضع الداكن */
+body.dark-mode .content-wrapper,
+body.dark-mode .main-sidebar,
+body.dark-mode .main-header {
+    background-color: #1a2332 !important;
+}
+
+body.dark-mode .box {
+    background-color: #243447 !important;
+    border-color: #2d3e5a !important;
+}
+
+body.dark-mode .box-header {
+    background-color: #1e2a3a !important;
+    color: #22d3ee !important;
+}
+
+body.dark-mode .box-title {
+    color: #22d3ee !important;
+}
+
+body.dark-mode .dataTables_wrapper {
+    color: #e5e7eb !important;
+}
+
+body.dark-mode .dataTables_filter input,
+body.dark-mode .dataTables_length select {
+    background-color: #2d3e5a !important;
+    color: #e5e7eb !important;
+    border-color: #4a5a7a !important;
+}
+
+body.dark-mode .table {
+    color: #e5e7eb !important;
+}
+
+body.dark-mode .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #2a3a4e !important;
+}
+
+body.dark-mode .table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #1e2a3a !important;
+}
+
+body.dark-mode .table-hover > tbody > tr:hover {
+    background-color: #3a4a5e !important;
+}
+
+body.dark-mode .small-box {
+    background-color: #243447 !important;
+    border-color: #2d3e5a !important;
+}
+
+body.dark-mode .small-box .inner {
+    color: #e5e7eb !important;
+}
+
+body.dark-mode .small-box .icon {
+    color: #22d3ee !important;
+}
+
+/* الوضع الفاتح */
+body.light-mode .content-wrapper,
+body.light-mode .main-sidebar,
+body.light-mode .main-header {
+    background-color: #f4f6f9 !important;
+}
+
+body.light-mode .box {
+    background-color: #ffffff !important;
+    border-color: #d2d6de !important;
+}
+
+body.light-mode .box-header {
+    background-color: #f8f9fa !important;
+}
+
+body.light-mode .small-box {
+    background-color: #ffffff !important;
+    border-color: #d2d6de !important;
+}
+
+/* تنسيقات إضافية */
+.small-box .icon {
+    transition: all 0.3s ease;
+}
+
+.small-box .icon:hover {
+    transform: scale(1.1);
+}
+
+.shiny-notification {
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.btn-info {
+    background-color: #0891b2 !important;
+    border-color: #0891b2 !important;
+}
+
+.btn-info:hover {
+    background-color: #0e7490 !important;
+    border-color: #0e7490 !important;
+}
+
+.selectize-input {
+    background-color: #ffffff !important;
+    border-radius: 4px !important;
+}
+
+body.dark-mode .selectize-input {
+    background-color: #2d3e5a !important;
+    color: #e5e7eb !important;
+}
+
+body.dark-mode .selectize-dropdown {
+    background-color: #2d3e5a !important;
+    color: #e5e7eb !important;
+}
+
+body.dark-mode .selectize-dropdown .active {
+    background-color: #3a4a5e !important;
+}
+
+.dataTables_wrapper {
+    padding: 10px 0 !important;
+}
+
+/* فلاتر أعلى كل عمود (نمط Excel) - option filter="top" في DT */
+table.dataTable thead tr:nth-child(2) th {
+    padding: 4px 6px !important;
+}
+
+table.dataTable thead tr:nth-child(2) input,
+table.dataTable thead tr:nth-child(2) select {
+    width: 100% !important;
+    box-sizing: border-box;
+    border-radius: 4px !important;
+    border: 1px solid #d2d6de;
+    padding: 3px 5px !important;
+    font-size: 12px !important;
+}
+
+body.dark-mode table.dataTable thead tr:nth-child(2) input,
+body.dark-mode table.dataTable thead tr:nth-child(2) select {
+    background-color: #2d3e5a !important;
+    color: #e5e7eb !important;
+    border-color: #4a5a7a !important;
+}
+
+body.dark-mode table.dataTable thead tr:nth-child(2) th {
+    background-color: #1e2a3a !important;
+}
+
+.dataTables_filter input {
+    border-radius: 4px !important;
+    padding: 5px 10px !important;
+    margin-left: 5px !important;
+}
+
+/* تصميم متجاوب للشاشات الصغيرة */
+@media (max-width: 768px) {
+    .small-box {
+        min-height: 80px !important;
+    }
+    
+    .small-box .inner {
+        font-size: 14px !important;
+    }
+    
+    .small-box .icon {
+        font-size: 30px !important;
+    }
+}
+
+/* صفحة تسجيل الدخول */
+.login-box {
+    margin-top: 100px;
+}
+
+.login-box .well {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    padding: 25px 30px;
+}
+
+.login-box h2 {
+    color: #0891b2;
+}
