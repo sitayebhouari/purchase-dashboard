@@ -1,6 +1,11 @@
 .Rproj.user/
 .Rhistory
 .RData
+.Ruserdata
+.Rapp.history
+*.Rproj
 rsconnect/
-*.rds
-*.xlsx
+shinyapps.io/
+.DS_Store
+Thumbs.db
+*.log
