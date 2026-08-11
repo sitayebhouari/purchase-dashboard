@@ -10,9 +10,9 @@ shiny::runApp()
 
 ## Connexion
 
-- Admin: admin / admin123
-- Tester: tester / tester123
-- Viewer: viewer / viewer123
+- Admin: admin
+- Tester: tester 
+- Viewer: viewer /    passwrod :viewer123
 
 ## Technologies
 
